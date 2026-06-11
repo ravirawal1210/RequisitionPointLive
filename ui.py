@@ -23,8 +23,9 @@ st.sidebar.header("🔧 Settings & Authentication")
 # REMINDER: Replace this placeholder string with your ACTUAL new live Render backend URL once deployed!
 raw_backend_url = st.sidebar.text_input(
     "Live Backend Endpoint URL", 
-    value="https://document-agent-api.onrender.com/extract-points"  # <--- Your unique Render API URL goes here!
+    value="https://YOUR-NEW-API-NAME.onrender.com/extract-points"
 )
+
 raw_api_key = st.sidebar.text_input(
     "Your Groq API Key", 
     type="password",
