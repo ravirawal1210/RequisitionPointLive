@@ -59,7 +59,7 @@ async def extract_points_from_pdf(
             f"\n\nDocument Text:\n{document_text}"
         )
 
-        # STABLE WORKHORSE MODEL FLAG
+        # Utilizing the stable production versatile model flag
         chat_completion = client.chat.completions.create(
             messages=[
                 {
